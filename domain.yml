@@ -1,8 +1,8 @@
 version: "3.1"
 
 intents:
-  - greet
-  - goodbye
+  - saudar
+  - despedir
   - affirm
   - deny
   - mood_great
@@ -10,21 +10,21 @@ intents:
   - bot_challenge
 
 responses:
-  utter_greet:
-  - text: "Hey! How are you?"
+  utter_saudar:
+  - text: "Olá! No que posso te ajudar?"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
     image: "https://i.imgur.com/nGF1K8f.jpg"
 
-  utter_did_that_help:
-  - text: "Did that help you?"
+  utter_sua_duvida_foi_solucionada:
+  - text: "Sua duvida foi solucionada?"
 
   utter_happy:
   - text: "Great, carry on!"
 
-  utter_goodbye:
-  - text: "Bye"
+  utter_despedir:
+  - text: "Tchau!"
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
